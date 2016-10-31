@@ -12,7 +12,6 @@
                 async: true
             });
         } catch (e) {}
-
     </script>
     <style>
         .onum {
@@ -22,12 +21,23 @@
             font-feature-settings: "onum";
             /*color:#113F51;*/
         }
+
+        #logo {
+            height: 4rem;
+        }
+
+        @media screen and (min-width: 30em) {
+            #logo {
+                height: auto;
+                width:16rem;
+            }
+        }
     </style>
 </head>
 
 <body class="athelas dark-gray bg-near-white tkk-garamond-premier-pro" style="background-color:#FFF;-webkit-font-smoothing: antialiased;">
     <header class="tc" style="background:url(../images/photo-1465146344425-f00d5f5c8f07.jpg) no-repeat center center;background-size:cover;">
-        <img class="center h3 mw5-ns mt5 mb6" src="../images/logo-blue2.svg">
+        <img id="logo" class="center mt4 mt5-ns mb6" src="../images/logo-blue2.svg">
         <div class="mb7">
             <h1 class="fw3 i f1 mw7 center" style="color:#113F51;">Something about flowers and how great we are</h1>
             <a class="f4 link grow br2 ph3 pv2 mb2 dib mr4 white" style="background-color:#113F51;" href="#0">See our work</a>
@@ -44,28 +54,30 @@
         </nav>
     </header>
     <div class="mv6 tc courier">
-            <div class="dib ph3">
-                <img src="../images/products/1.jpg">
-                <p class="lh-copy">Vibrant Views Bouquet
-                    <br>$49.99</p>
-            </div>
-            <div class="dib ph3">
-                <img src="../images/products/2.jpg">
-                <p class="lh-copy">Abundant Harvest
-                    <br>$59.99</p>
-            </div>
-            <div class="dib ph3">
-                <img src="../images/products/3.jpg">
-                <p class="lh-copy">Bountiful Harvest
-                    <br>$79.99</p>
-            </div>
+        <div class="dib ph3">
+            <img src="../images/products/1.jpg">
+            <p class="lh-copy">Vibrant Views Bouquet
+                <br>$49.99</p>
         </div>
+        <div class="dib ph3">
+            <img src="../images/products/2.jpg">
+            <p class="lh-copy">Abundant Harvest
+                <br>$59.99</p>
+        </div>
+        <div class="dib ph3">
+            <img src="../images/products/3.jpg">
+            <p class="lh-copy">Bountiful Harvest
+                <br>$79.99</p>
+        </div>
+    </div>
     <div class="mw8 center mt6 cf ph4-l">
         <div class="fr-l f4 f3-ns measure lh-copy ph3 ph4-ns ph0-l">
             <h1 class="fw4 f5 f5-ns normal courier mid-gray">Our History</h1>
             <p class="f3 f2-ns i mt4-ns onum" style="-webkit-font-feature-settings: 'calt' 0;
-        font-feature-settings: 'calt' 0;">In <span class="">1946</span> our flower shop began as simply a small area in a family run grocery store owned by Emmet and Lela Hignight. In 1964, as the Quad Cities grew and customers' needs changed, our current location was built and became known as Hignight Florists.</p>
-            <p>Just like Emmet and Lela, and their son and daughter-in-law Ken and Karen, we are devoted to creating visual harmony and welcome the opportunity to make each and every occasion unique. Our floral arrangement designs range from sparse, simple, and contemporary to lush, luxurious, and romantic. Regardless of the style, the overall effect is one that is elegant and refined, vibrant and inspired.</p>
+        font-feature-settings: 'calt' 0;">In <span class="">1946</span> our flower shop began as simply a small area in a family run grocery store owned by Emmet and Lela Hignight. In 1964, as the Quad Cities grew and customers' needs changed, our current location was built and became
+                known as Hignight Florists.</p>
+            <p>Just like Emmet and Lela, and their son and daughter-in-law Ken and Karen, we are devoted to creating visual harmony and welcome the opportunity to make each and every occasion unique. Our floral arrangement designs range from sparse, simple,
+                and contemporary to lush, luxurious, and romantic. Regardless of the style, the overall effect is one that is elegant and refined, vibrant and inspired.</p>
         </div>
         <div class="fl-l f4 f3-ns measure-narrow lh-copy ph3 ph4-ns ph0-l mt5 mt0-l">
             <h1 class="fw4 f5 normal courier mid-gray">Our Services</h1>
