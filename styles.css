@@ -11,11 +11,12 @@
 }
 
 #thang {
-  background:url('images/logo-blue2.svg') no-repeat center;
-  background-size: 10rem;
+    background: url('images/logo-blue2.svg') no-repeat center;
+    background-size: 10rem;
 }
+
 .w-45 {
-  width:45%;
+    width: 45%;
 }
 
 @media screen and (min-width: 30em) {
@@ -24,8 +25,9 @@
         width: 16rem;
     }
     #thang {
-      background-size:16rem;
+        background-size: 16rem;
     }
 }
-background: -webkit-linear-gradient(to left, #870000 , #190A05);
-background: linear-gradient(to left, #870000 , #190A05);
+
+background: -webkit-linear-gradient(to left, #870000, #190A05);
+background: linear-gradient(to left, #870000, #190A05);
